@@ -1,22 +1,16 @@
-import './App.css';
+import "./App.css";
+import "./Generic/reset.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <header>
+      <nav>
+        <a href="#to-do" className="action">
+          Sobre
         </a>
-      </header>
-    </div>
+        <h1>Banana</h1>
+      </nav>
+    </header>
   );
 }
 
