@@ -1,0 +1,23 @@
+.menu,
+.menu::before,
+.menu::after {
+  content: "";
+  background-color: var(--color-negative);
+  width: 15px;
+  height: 3px;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu::before,
+.menu::after {
+  position: absolute;
+}
+
+.menu::before {
+  top: -6px;
+}
+
+.menu::after {
+  bottom: -6px;
+}
