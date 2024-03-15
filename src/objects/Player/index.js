@@ -1,7 +1,8 @@
 import React from "react";
+import "./styles.css";
 
-function Player() {
-  return <button className="player">X</button>;
+function Player({ escolha }) {
+  return <button className="player">{escolha}</button>;
 }
 
 export default Player;

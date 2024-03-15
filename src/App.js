@@ -7,7 +7,7 @@ function App() {
     <>
       <Header />
       <Tabuleiro />
-      <Player />
+      <Player escolha="X"/>
     </>
   );
 }

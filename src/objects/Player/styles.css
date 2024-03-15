@@ -1,0 +1,8 @@
+.player {
+  color: var(--color-fourth);
+  font-size: 56px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 70%;
+  border: none;
+}
