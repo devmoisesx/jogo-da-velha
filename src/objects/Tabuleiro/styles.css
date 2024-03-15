@@ -1,0 +1,10 @@
+.tabuleiro {
+  background-color: var(--color-zero);
+  width: 290px;
+  height: 290px;
+  border-radius: var(--spacing-radius);
+  box-shadow: 0 3px 6px 0 var(--color-light-negative);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
