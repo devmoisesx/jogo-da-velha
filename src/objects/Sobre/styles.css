@@ -1,6 +1,6 @@
-.action {
-    color: var(--color-first);
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
+.sobre {
+  color: var(--color-negative);
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
 }
