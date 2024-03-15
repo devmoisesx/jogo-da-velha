@@ -1,5 +1,6 @@
 .player {
   color: var(--color-fourth);
+  background-color: transparent;
   font-size: 56px;
   font-weight: 500;
   padding: 0;

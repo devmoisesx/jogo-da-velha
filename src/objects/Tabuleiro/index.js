@@ -1,7 +1,7 @@
 import "./styles.css";
 
-function Tabuleiro() {
-  return <article className="tabuleiro"></article>;
+function Tabuleiro({ children }) {
+  return <article className="tabuleiro">{children}</article>;
 }
 
 export default Tabuleiro;
