@@ -6,16 +6,34 @@ import Tabuleiro from "../../objects/Tabuleiro";
 function Hashtag() {
   return (
     <Tabuleiro>
-      <Player escolha="X" />
-      <Player escolha="X" />
-      <Player escolha="X" />
+      <ul className="hashtag">
+        <li className="item">
+          <Player escolha="X" />
+        </li>
+        <li className="item">
+          <Player escolha="X" />
+        </li>
+        <li className="item">
+          <Player escolha="X" />
+        </li>
 
-      <Player escolha="X" />
-      <Player escolha="X" />
-      <Player escolha="X" />
+        <li className="item">
+          <Player escolha="X" />
+        </li>
+        <li className="item">
+          <Player escolha="X" />
+        </li>
+        <li className="item">
+          <Player escolha="X" />
+        </li>
 
-      <Player escolha="X" />
-      <Player escolha="X" />
+        <li className="item">
+          <Player escolha="X" />
+        </li>
+        <li className="item">
+          <Player escolha="X" />
+        </li>
+      </ul>
     </Tabuleiro>
   );
 }
