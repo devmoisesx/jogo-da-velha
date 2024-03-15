@@ -1,9 +1,7 @@
-import './styles.css'
+import "./styles.css";
 
 function Menu() {
-    return (
-        <div className="menu"></div>
-    )
+return <a className="menu"><sapn className="center">Menu</sapn></a>;
 }
 
-export default Menu
+export default Menu;
