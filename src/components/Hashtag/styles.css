@@ -1,6 +1,18 @@
+.tabuleiro {
+  padding: 15px;
+}
+
 .hashtag {
+  background-color: var(--color-third);
   height: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  gap: 3px;
+}
+
+.hashtag > .item {
+  background-color: var(--color-zero);
+  display: flex;
+  justify-content: center;
 }

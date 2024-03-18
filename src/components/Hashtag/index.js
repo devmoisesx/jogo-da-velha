@@ -33,6 +33,9 @@ function Hashtag() {
         <li className="item">
           <Player escolha="X" />
         </li>
+        <li className="item">
+          <Player escolha="X" />
+        </li>
       </ul>
     </Tabuleiro>
   );
