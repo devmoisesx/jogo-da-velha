@@ -1,0 +1,14 @@
+.option {
+  display: flex;
+  align-items: center;
+}
+
+.option label {
+  font-size: var(--size-small);
+  font-weight: bold;
+  color: var(--color-fourth);
+}
+
+.option input#showEvents:checked {
+  background-color: aqua;
+}

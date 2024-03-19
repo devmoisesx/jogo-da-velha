@@ -8,7 +8,7 @@ function Hashtag() {
     <Tabuleiro>
       <ul className="hashtag">
         <li className="item">
-          <Player escolha="X" />
+          <Player escolha="O" />
         </li>
         <li className="item">
           <Player escolha="X" />
@@ -21,7 +21,7 @@ function Hashtag() {
           <Player escolha="X" />
         </li>
         <li className="item">
-          <Player escolha="X" />
+          <Player escolha="O" />
         </li>
         <li className="item">
           <Player escolha="X" />
@@ -34,7 +34,7 @@ function Hashtag() {
           <Player escolha="X" />
         </li>
         <li className="item">
-          <Player escolha="X" />
+          <Player escolha="o" />
         </li>
       </ul>
     </Tabuleiro>

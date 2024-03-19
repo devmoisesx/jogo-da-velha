@@ -13,3 +13,8 @@
   width: 90vw;
   height: 90vw;
 }
+
+.app .option {
+  display: inline-block;
+  margin-top: 32px;
+}
