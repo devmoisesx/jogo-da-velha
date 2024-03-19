@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles.css";
 
-const index = () => {
-  return <input type="checkbox" id="showEvents" value="showEvents" />;
+const Input = ({ value }) => {
+  return <input type="checkbox" value={value} />;
 };
 
-export default index;
+export default Input;

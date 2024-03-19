@@ -9,7 +9,7 @@ function App() {
     <main className="app">
       <Header />
       <Hashtag />
-      <Input />
+      <Input value={"showEvents"} />
       <Label content={"Mostrar eventos"} />
     </main>
   );
