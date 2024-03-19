@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Hashtag />
       <Input id={"showEvents"} value={"showEvents"} />
-      <Label content={"Mostrar eventos"} />
+      <Label htmlFor={"showEvents"} content={"Mostrar eventos"} />
     </main>
   );
 }
