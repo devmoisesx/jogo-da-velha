@@ -12,6 +12,7 @@ function App() {
         id={"showEvents"}
         value={"showEvents"}
         content={"Mostrar eventos"}
+        type={"checkbox"}
       />
     </main>
   );
