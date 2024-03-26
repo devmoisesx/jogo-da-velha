@@ -1,15 +1,15 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
 
-.header > .sobre {
-    margin-left: auto;
-    margin-right: 10px;
+.header > .about-link {
+  margin-left: auto;
+  margin-right: 10px;
 }
 
 .header > .menu {
-    width: 25px;
+  width: 25px;
 }
