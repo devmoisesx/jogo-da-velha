@@ -16,7 +16,7 @@ function App() {
         content={"Mostrar eventos"}
       />
       <About>
-        <AboutLink />
+        <AboutLink className="-light"/>
       </About>
     </main>
   );
