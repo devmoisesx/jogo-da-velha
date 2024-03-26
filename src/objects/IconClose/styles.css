@@ -10,30 +10,25 @@
   display: inline-block;
 }
 
-.icon-close::before {
+.icon-close::before,
+.icon-close::after {
   content: "";
   border-radius: 1.5px;
   width: 25px;
   height: 3px;
-  display: inline-block;
   background-color: var(--color-zero);
   position: absolute;
   top: -1px;
+}
+
+.icon-close::before {
   left: 1px;
   transform: rotate(45deg);
   transform-origin: left center;
 }
 
 .icon-close::after {
-    content: "";
-    border-radius: 1.5px;
-    width: 25px;
-    height: 3px;
-    display: inline-block;
-    background-color: var(--color-zero);
-    position: absolute;
-    top: -1px;
-    right: 2px;
-    transform: rotate(-47deg);
-    transform-origin: top right;
-  }
+  right: 2px;
+  transform: rotate(-47deg);
+  transform-origin: top right;
+}
