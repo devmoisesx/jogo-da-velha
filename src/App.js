@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hashtag from "./components/Hashtag";
 import Checkbox from "./objects/Checkbox";
 import About from "./objects/About";
+import AboutLink from "./objects/AboutLink";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         value={"showEvents"}
         content={"Mostrar eventos"}
       />
-      <About />
+      <About>
+        <AboutLink />
+      </About>
     </main>
   );
 }
