@@ -1,8 +1,8 @@
 import "./styles.css";
 
-function Logo() {
+function Logo({ className = "" }) {
   return (
-    <h1 className="logo">
+    <h1 className={`logo ${className}`}>
       Collab<span>code</span>
     </h1>
   );

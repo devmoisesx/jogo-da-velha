@@ -4,6 +4,10 @@
   font-weight: Bold;
 }
 
+.logo.-light {
+  color: var(--color-zero);
+}
+
 .logo span {
-    font-weight: 400;
+  font-weight: 400;
 }
