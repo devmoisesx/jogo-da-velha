@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Hashtag from "./components/Hashtag";
 import Checkbox from "./objects/Checkbox";
+import About from "./objects/About";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         value={"showEvents"}
         content={"Mostrar eventos"}
       />
+      <About />
     </main>
   );
 }
