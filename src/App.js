@@ -4,6 +4,7 @@ import Hashtag from "./components/Hashtag";
 import Checkbox from "./objects/Checkbox";
 import About from "./objects/About";
 import AboutLink from "./objects/AboutLink";
+import IconClose from "./objects/IconClose";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         content={"Mostrar eventos"}
       />
       <About>
-        <AboutLink className="-light"/>
+        <AboutLink className="-light" />
+        <IconClose />
       </About>
     </main>
   );
